@@ -1,4 +1,11 @@
-# How to?
+# JS Exercises
+
+## Install NodeJS and Yarn in your machine
+
+- [NodeJS](https://nodejs.org/en/download).
+- [Yarn](https://yarnpkg.com/getting-started/install).
+
+## What to to?
 
 ## 1. Install dependencies
 ```bash
