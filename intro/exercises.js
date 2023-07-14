@@ -1,10 +1,10 @@
-// 2: Addition
+// 1: Addition
 // Write a function that adds two numbers together.
 // Assume that an invalid input should use 0 as the default value.
 function addition(a, b) {
 }
 
-// 3: Even or Odd
+// 2: Even or Odd
 // Write a function that checks if a given number is even or odd.
 function isEvenOrOdd(number) {
 }
@@ -16,24 +16,24 @@ function isEvenOrOdd(number) {
 function reverseString(str) {
 }
 
-// 5: Count Vowels
+// 4: Count Vowels
 // Write a function that counts the number of vowels in a given string.
 function countVowels(str) {
 }
 
-// 6: Find the Maximum
+// 5: Find the Maximum
 // Write a function that finds the maximum number in an array.
 // Do not use Math.max()
 function findMaximum(numbers) {
 }
 
-// 7: Palindrome Checker
+// 6: Palindrome Checker
 // A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
 // Write a function that checks if a given string is a palindrome. Character case should be ignored.
 function isPalindrome(str) {
 }
 
-// 8: FizzBuzz
+// 7: FizzBuzz
 // Print the numbers from 0 to n
 // Print Fizz (instead) if the number is divisible by 3
 // Print Buzz (instead) if the number is divisible by 5
@@ -41,12 +41,21 @@ function isPalindrome(str) {
 function fizzBuzz(n) {
 }
 
-// 9: Factorial
+// 8: Factorial
 // 5! = 5 * 4 * 3 * 2 * 1 = 120
 // 0! = 1
 // 1! = 1
 // 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040
 function factorial(n) {
+}
+
+// 9: Write a JavaScript program to check whether a given string contains an equal number of p's and t's.
+function hasSameAmountOfPsAndTs(str) {
+}
+
+// 10. The Pythagorean theorem
+// Write a JavaScript program to find the size of the biggest size of a triangle when given the other two sides.
+function pythagorean(sideA, sideB) {
 }
 
 module.exports = {
@@ -58,4 +67,6 @@ module.exports = {
   isPalindrome,
   fizzBuzz,
   factorial,
+  hasSameAmountOfPsAndTs,
+  pythagorean
 };

@@ -1,5 +1,3 @@
-// exercises.test.js
-
 const {
   addition,
   isEvenOrOdd,
@@ -8,6 +6,9 @@ const {
   findMaximum,
   isPalindrome,
   factorial,
+  fizzBuzz,
+  hasSameAmountOfPsAndTs,
+  pythagorean
 } = require("./exercises");
 
 // Exercise 2: Addition
@@ -66,4 +67,33 @@ test("Calculate the factorial of a number", () => {
   expect(factorial(0)).toBe(1);
   expect(factorial(7)).toBe(5040);
   expect(factorial(-7)).toBe(-5040);
+});
+
+test("Print numbers, Fizz, Buzz, or FizzBuzz based on the given rules", () => {
+  console.log = jest.fn(); // Mock console.log to capture output
+  fizzBuzz(15);
+  expect(console.log.mock.calls.length).toBe(15);
+  expect(console.log.mock.calls[0][0]).toBe(1);
+  expect(console.log.mock.calls[2][0]).toBe("Fizz");
+  expect(console.log.mock.calls[4][0]).toBe("Buzz");
+  expect(console.log.mock.calls[14][0]).toBe("FizzBuzz");
+});
+
+test("Check if string has the same number of p's and t's", () => {
+  expect(hasSameAmountOfPsAndTs("pt")).toBe(true);
+  expect(hasSameAmountOfPsAndTs("ptp")).toBe(true);
+  expect(hasSameAmountOfPsAndTs("ptpt")).toBe(true);
+  expect(hasSameAmountOfPsAndTs("ppt")).toBe(false);
+  expect(hasSameAmountOfPsAndTs("tttppp")).toBe(true);
+  expect(hasSameAmountOfPsAndTs("p")).toBe(false);
+  expect(hasSameAmountOfPsAndTs("t")).toBe(false);
+  expect(hasSameAmountOfPsAndTs("")).toBe(true);
+});
+
+test("Find the size of the biggest side of a triangle using the Pythagorean theorem", () => {
+  expect(pythagorean(3, 4)).toBe(5);
+  expect(pythagorean(5, 12)).toBe(13);
+  expect(pythagorean(8, 15)).toBe(17);
+  expect(pythagorean(7, 24)).toBe(25);
+  expect(pythagorean(9, 40)).toBe(41);
 });
