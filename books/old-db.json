@@ -1,0 +1,191 @@
+[
+    {
+      "title": "The Art of Programming",
+      "author": "John Smith",
+      "ISBN": "978-0-123456-78-9",
+      "genre": "Computer Science",
+      "status": "Available"
+    },
+    {
+      "title": "A Tale of Magic",
+      "author": "Jane Doe",
+      "ISBN": "978-0-987654-32-1",
+      "genre": "Fantasy",
+      "status": "Borrowed"
+    },
+    {
+      "title": "The Mystery of the Hidden Key",
+      "author": "Michael Brown",
+      "ISBN": "978-1-234567-89-0",
+      "genre": "Mystery",
+      "status": "Available"
+    },
+    {
+      "title": "Science and Beyond",
+      "author": "Emily Johnson",
+      "ISBN": "978-9-876543-21-0",
+      "genre": "Science Fiction",
+      "status": "Available"
+    },
+    {
+      "title": "Cooking Made Easy",
+      "author": "William Lee",
+      "ISBN": "978-2-345678-90-1",
+      "genre": "Cooking",
+      "status": "Available"
+    },
+    {
+      "title": "The History of Art",
+      "author": "Sophia Adams",
+      "ISBN": "978-3-456789-01-2",
+      "genre": "Art",
+      "status": "Borrowed"
+    },
+    {
+      "title": "Mathematics for Fun",
+      "author": "Oliver White",
+      "ISBN": "978-4-567890-12-3",
+      "genre": "Mathematics",
+      "status": "Available"
+    },
+    {
+      "title": "The Ghost in the Attic",
+      "author": "Ella Davis",
+      "ISBN": "978-5-678901-23-4",
+      "genre": "Horror",
+      "status": "Available"
+    },
+    {
+      "title": "Wild Adventures",
+      "author": "James Wilson",
+      "ISBN": "978-6-789012-34-5",
+      "genre": "Adventure",
+      "status": "Available"
+    },
+    {
+      "title": "The Traveler's Guide",
+      "author": "Emma Thompson",
+      "ISBN": "978-7-890123-45-6",
+      "genre": "Travel",
+      "status": "Borrowed"
+    },
+    {
+      "title": "Beyond the Stars",
+      "author": "Daniel Lee",
+      "ISBN": "978-8-901234-56-7",
+      "genre": "Science Fiction",
+      "status": "Available"
+    },
+    {
+      "title": "Detective Stories",
+      "author": "Lily Johnson",
+      "ISBN": "978-9-012345-67-8",
+      "genre": "Mystery",
+      "status": "Available"
+    },
+    {
+      "title": "The Art of Gardening",
+      "author": "Aiden Green",
+      "ISBN": "978-0-123456-78-9",
+      "genre": "Hobby",
+      "status": "Borrowed"
+    },
+    {
+      "title": "Fairy Tales Reimagined",
+      "author": "Grace Adams",
+      "ISBN": "978-0-987654-32-1",
+      "genre": "Fantasy",
+      "status": "Available"
+    },
+    {
+      "title": "Mindfulness and You",
+      "author": "Oliver Brown",
+      "ISBN": "978-1-234567-89-0",
+      "genre": "Self-Help",
+      "status": "Available"
+    },
+    {
+      "title": "The Quantum Universe",
+      "author": "Sophie White",
+      "ISBN": "978-9-876543-21-0",
+      "genre": "Science",
+      "status": "Borrowed"
+    },
+    {
+      "title": "Italian Cuisine",
+      "author": "Ava Lee",
+      "ISBN": "978-2-345678-90-1",
+      "genre": "Cooking",
+      "status": "Available"
+    },
+    {
+      "title": "The Great Renaissance",
+      "author": "David Davis",
+      "ISBN": "978-3-456789-01-2",
+      "genre": "History",
+      "status": "Available"
+    },
+    {
+      "title": "The Alchemist's Secret",
+      "author": "Lucas Smith",
+      "ISBN": "978-4-567890-12-3",
+      "genre": "Fantasy",
+      "status": "Available"
+    },
+    {
+      "title": "Exploring the Oceans",
+      "author": "Ella Johnson",
+      "ISBN": "978-5-678901-23-4",
+      "genre": "Science",
+      "status": "Borrowed"
+    },
+    {
+      "title": "The Jungle Adventure",
+      "author": "Noah Williams",
+      "ISBN": "978-6-789012-34-5",
+      "genre": "Adventure",
+      "status": "Available"
+    },
+    {
+      "title": "Guide to Paris",
+      "author": "Sophia Thompson",
+      "ISBN": "978-7-890123-45-6",
+      "genre": "Travel",
+      "status": "Available"
+    },
+    {
+      "title": "Galactic Odyssey",
+      "author": "Alexander Lee",
+      "ISBN": "978-8-901234-56-7",
+      "genre": "Science Fiction",
+      "status": "Available"
+    },
+    {
+      "title": "Puzzle Solving 101",
+      "author": "Lily Brown",
+      "ISBN": "978-9-012345-67-8",
+      "genre": "Hobby",
+      "status": "Available"
+    },
+    {
+      "title": "Fantasy Stories",
+      "author": "Ethan Green",
+      "ISBN": "978-0-123456-78-9",
+      "genre": "Fantasy",
+      "status": "Borrowed"
+    },
+    {
+      "title": "The Art of Meditation",
+      "author": "Grace Lee",
+      "ISBN": "978-0-987654-32-1",
+      "genre": "Self-Help",
+      "status": "Available"
+    },
+    {
+      "title": "Physics Made Simple",
+      "author": "Oliver Davis",
+      "ISBN": "978-1-234567-89-0",
+      "genre": "Science",
+      "status": "Borrowed"
+    }
+]
