@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tests": "jest"
+    "tests": "jest",
+    "format": "prettier --write \"**/*.js\"",
+    "posttest": "npm run format"
   },
   "devDependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "prettier": ">=2"
   },
   "keywords": [],
   "author": "",
